@@ -14,7 +14,31 @@
 }
 
 
-.header{
+.header-content{
     height: 60px;
-    background-color: rgba(0, 0, 255, 0.336);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-content img{
+    width: 8rem;
+    margin-left: 2rem;
+}
+.search-icon-bar{
+    
+}
+
+/* .search-bar-icon{
+    margin-top: 2rem;
+    background-color: whitesmoke;
+    font-size: 1.8rem;
+} */
+
+.search-bar{
+    border: none;
+    line-height: 2rem;
+    background-color: whitesmoke;
 }
