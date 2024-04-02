@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+}
+
+.logo-search{
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo-search img{
+    width: 8rem;
+}
+
+.search{
+    width: 100%;
+}
+.search input{ 
+    border: 1px solid black;
+    height: 1.5rem;
+    width: 70%;
+    margin-left:1rem
+}
+
+.loc-sign-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.loc-sign-menu select{
+    border: none;
+}
+
+.loc-sign-menu button{
+    border: none;
+    padding : 0.4rem 1rem;
+    background-color: #F84464;
+    color: white;
+
+}
