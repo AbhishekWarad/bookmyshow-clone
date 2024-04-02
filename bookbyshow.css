@@ -4,7 +4,7 @@
 .main{
     margin: 0;
     height: 100vh;
-    background-color: #F5F5F5;
+    /* background-color: #F5F5F5; */
 }
 
  /*-------------- HEADER SECTION -------------------- */
@@ -60,3 +60,33 @@
     color: white;
 }
 
+/* --------------- END OF HEADER -------------- */
+
+
+/* ----------------- START OF NAV --------------------- */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    padding: 0 70px;
+    background-color: #F5F5F5;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav-option{
+    display: flex;
+    
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.nav-offers{
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+}
+
+/* ----------------- END OF NAV --------------------- */
