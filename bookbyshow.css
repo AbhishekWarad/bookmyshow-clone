@@ -1,15 +1,26 @@
 *{
     margin: 0;
 }
+.main{
+    margin: 0;
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+
+ /*-------------- HEADER SECTION -------------------- */
 
 .header{
     display: flex;
+    padding: 0 70px ;
+    /* padding-left: 60px;
+    padding-right: 60px; */
     justify-content: center;
     height: 4rem;
 }
 
+/* HEADER>logo-search */
 .logo-search{
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -24,15 +35,17 @@
 }
 .search input{ 
     border: 1px solid black;
-    height: 1.5rem;
+    height: 1.8rem;
     width: 70%;
-    margin-left:1rem
+    margin-left:1rem;
 }
 
+/* HEADER>loc-sign-menu */
 .loc-sign-menu{
+    /* width:100%; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     gap: 1em;
 }
 
@@ -45,5 +58,5 @@
     padding : 0.4rem 1rem;
     background-color: #F84464;
     color: white;
-
 }
+
