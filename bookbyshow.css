@@ -92,3 +92,23 @@
 }
 
 /* ----------------- END OF NAV --------------------- */
+
+/* ----------------- START OF RECOMMENDED MOVIES --------------------- */
+
+.recommended-movies{
+    height: 400px;
+    background-color: black;
+}
+
+
+.recommended-movies-main{
+    background-color: grey;
+    height: 100%;
+    margin: 0px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended-movies-main h2{
+    display: inline;
+}
