@@ -106,9 +106,36 @@
     height: 100%;
     margin: 0px 70px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    
 }
 
-.recommended-movies-main h2{
-    display: inline;
+.recommended-movies-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.recommended-movies-header a{
+    text-decoration: none;
+}
+
+.recommended-movies-body{
+    
+    height: 100%;
+    
+}
+
+.cards-main{
+    display: flex;
+    background-color: aliceblue;
+    gap: 40px;
+    height: 100%;
+}
+
+.cards-main .cards{
+    background-color: #F84464;
+    border: 2px solid black;
+    height: 95%;
+    width: 30%;
 }
