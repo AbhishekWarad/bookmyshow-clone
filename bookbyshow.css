@@ -198,6 +198,18 @@ a{
 
 /* -----------  END OF CARDS  ----------------*/
 
-            /* ----------------- END OF RECOMMENDED MOVIES --------------------- */
+                /* ----------------- END OF RECOMMENDED MOVIES --------------------- */
 
-            /*-----------------------  START OF STREAM ------------------------- */
+                /*-----------------------  START OF STREAM BANNER------------------------- */
+
+.stream-banner-body{
+    margin: 0px 20rem;
+    padding: 5rem 0;
+}
+
+.stream-banner-body img{
+    width: 100%;
+    border-radius: 13px;
+}
+
+                /*-----------------------  END OF STREAM BANNER------------------------- */
