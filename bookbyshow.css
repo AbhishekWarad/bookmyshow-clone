@@ -202,14 +202,75 @@ a{
 
                 /*-----------------------  START OF STREAM BANNER------------------------- */
 
-.stream-banner-body{
+.strem-banner-body{
     margin: 0px 20rem;
     padding: 5rem 0;
 }
 
-.stream-banner-body img{
+.strem-banner-body img{
     width: 100%;
     border-radius: 13px;
 }
 
-                /*-----------------------  END OF STREAM BANNER------------------------- */
+                /*-----------------------  END OF STREAM BANNER  ------------------------- */
+
+                 /*-----------------------  START OF LIVE BANNER ------------------------- */
+
+.live-events{
+    height: 300px;
+    padding: 0 0 5rem 0;
+    overflow: none;
+}
+
+
+.live-events-body{
+    height: fit-content;
+    padding: 0rem 20rem ;
+    display: flex;
+    flex-direction: column;
+}
+
+.live-events-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.recommended-movies-title h2{
+    font-weight: 700;
+}
+.recommended-movies-title a{
+    text-decoration: none;
+}
+
+
+/* --------------  LIVE CARDS  ----------------*/
+
+
+.live-events-card{
+    height: 240px;
+}
+
+
+.live-cards-main{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    height: 240px;
+}
+
+.cards{
+    height: fit-content;
+    width: 230px;
+}
+
+.live-banners{
+    height: 240px;
+}
+.live-banners img{
+    height: 230px;
+    width: 100%;
+    border-radius: 9px;
+}
+
+                /*-----------------------  START OF LIVE BANNER ------------------------- */
