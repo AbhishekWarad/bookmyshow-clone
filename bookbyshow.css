@@ -1,5 +1,8 @@
 *{
     margin: 0;
+    font-family: "Average Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .main{
     margin: 0;
@@ -84,7 +87,10 @@
     padding: 0 20rem;
 }
 
-.nav a{
+a{
+    font-size:15px;
+    font-weight:100;
+    opacity: 0.9;
     text-decoration: none;
     color: black;
 }
@@ -103,79 +109,93 @@
 
 
 
-/* ----------------- END OF NAV --------------------- */
+                /* -------------------------- END OF NAV ------------------------------ */
 
-/* ----------------- START OF RECOMMENDED MOVIES --------------------- */
+                /* ----------------- START OF RECOMMENDED MOVIES --------------------- */
 
 .recommended-movies{
     height: 500px;
-    background-color: black;
+    /* display: flex;
+    justify-content: center; */
 }
 
 
 .recommended-movies-body{
-    background-color: #F5F5F5;
     height: 100%;
-    padding: 0rem 4rem;
+    /* background-color: #F5F5F5;  */
+    padding: 0rem 20rem;
     display: flex;
+    /* justify-content: center; */
     flex-direction: column;
 
 }
 
-.recommended-movies-header{
+.recommended-movies-title{
     display: flex;
     justify-content: space-between;
-    /* background-color: aqua; */
+    margin-bottom: 1rem;
 }
 
-.recommended-movies-header a{
+.recommended-movies-title h2{
+    font-weight: 700;
+}
+.recommended-movies-title a{
     text-decoration: none;
 }
 
-.recommended-movies-body{  
+/* -----------  CARDS  ----------------*/
+
+.recommended-movies-cards{  
     height: 100%; 
-    
 }
 
 .cards-main{
     display: flex;
-    /* background-color: aliceblue; */
+    justify-content: space-between;
     gap: 40px;
     height: 100%;
 }
 
-.cards-main .cards{
-    /* background-color: #F84464; */
-    /* border: 2px solid black; */
+.cards{
     height: fit-content;
     width: 230px;
 }
+
 .movie-banner{
     height: 350px;
 }
 .movie-banner img{
     height: 350px;
     width: 100%;
-    border-radius: 7px 7px 0 0;
+    border-radius: 9px 9px 0 0;
 }
 
 .movie-rating{
-    margin: 0px;
-    background-color: black;
-    border-radius: 0 0 7px 7px;
-}
-
-.movie-rating{
-    height: 25px;
+    height: 30px;
     display: flex;
     align-items: center;
+    background-color: black;
+    border-radius: 0 0 9px 9px;
 }
 
+.movie-rating i{
+    margin-left: 5%;
+}
 .movie-rating p{
     padding-left: 10px;
     color: rgba(255, 255, 255, 0.87);
 }
+.movie-title{
+    margin-top: 5px;
+}
 
+.movie-title h3{
+    font-weight: 700;
+}
 .movie-genres h3{
     opacity: 0.5;
 }
+
+/* -----------  END OF CARDS  ----------------*/
+
+            /* ----------------- END OF RECOMMENDED MOVIES --------------------- */
