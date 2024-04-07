@@ -91,12 +91,16 @@
     align-items: center;
 }
 
+hr{
+    
+}
+
 /* ----------------- END OF NAV --------------------- */
 
 /* ----------------- START OF RECOMMENDED MOVIES --------------------- */
 
 .recommended-movies{
-    height: 400px;
+    height: 450px;
     background-color: black;
 }
 
@@ -139,10 +143,10 @@
     width: 230px;
 }
 .movie-banner{
-    height: 300px;
+    height: 350px;
 }
 .movie-banner img{
-    height: 300px;
+    height: 350px;
     width: 100%;
     border-radius: 7px 7px 0 0;
 }
@@ -154,7 +158,7 @@
 }
 
 .movie-rating{
-    height: 9%;
+    height: 25px;
     display: flex;
     align-items: center;
 }
