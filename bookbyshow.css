@@ -102,9 +102,9 @@
 
 
 .recommended-movies-main{
-    background-color: grey;
+    background-color: #F5F5F5;
     height: 100%;
-    margin: 0px 70px;
+    padding: 0rem 4rem;
     display: flex;
     flex-direction: column;
     
@@ -113,29 +113,57 @@
 .recommended-movies-header{
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .recommended-movies-header a{
     text-decoration: none;
 }
 
-.recommended-movies-body{
-    
-    height: 100%;
+.recommended-movies-body{  
+    height: 100%; 
     
 }
 
 .cards-main{
     display: flex;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     gap: 40px;
     height: 100%;
 }
 
 .cards-main .cards{
-    background-color: #F84464;
-    border: 2px solid black;
-    height: 95%;
-    width: 30%;
+    /* background-color: #F84464; */
+    /* border: 2px solid black; */
+    height: fit-content;
+    width: 230px;
+}
+.movie-banner{
+    height: 300px;
+}
+.movie-banner img{
+    height: 300px;
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+
+.movie-rating{
+    margin: 0px;
+    background-color: black;
+    border-radius: 0 0 7px 7px;
+}
+
+.movie-rating{
+    height: 9%;
+    display: flex;
+    align-items: center;
+}
+
+.movie-rating p{
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.movie-genres h3{
+    opacity: 0.5;
 }
