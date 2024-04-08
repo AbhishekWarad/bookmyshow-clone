@@ -273,4 +273,19 @@ a{
     border-radius: 9px;
 }
 
-                /*-----------------------  START OF LIVE BANNER ------------------------- */
+                /*-----------------------  END OF LIVE BANNER ------------------------- */
+
+
+                /* ------------------------START OF PRIMIERE ------------------------------ */
+
+.primiere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #2b3149;
+}
+
+/* ------------------------ END OF PRIMIERE ------------------------------ */
+
+
