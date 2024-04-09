@@ -289,3 +289,47 @@ a{
 /* ------------------------ END OF PRIMIERE ------------------------------ */
 
 
+/* -------------------------- START OF PREMIERE CARDS ---------------------- */
+.premiere-cards{
+    padding: 2rem 20rem;
+    background-color: #2b3149;
+}
+
+.premiere-cards-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.premiere-cards-title{
+    padding-bottom: 1rem;
+    color: white;
+}
+.pcards-main{
+    /* padding: 0px 20rem; */
+    /* display: flex;
+    flex-direction: column; */
+    height: fit-content;
+    
+}
+
+.pcards-body{
+    /* padding: 0px 20rem; */
+    display: flex;
+    gap: 40px;
+}
+
+.pcards{
+    height: min-content;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.pcard-banner img{
+    width: 230px;
+    /* height: fit-content; */
+    border-radius: 9px;
+}
+
